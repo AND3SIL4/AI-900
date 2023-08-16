@@ -1,16 +1,16 @@
 import requests
 
 # Add your key here
-key = "YOUR_KEY"
+key = "136973d95a004532bd14ca7302fd0335"
 
 # You need to add your resource location if you use a Cognitive Services resource
-location = "YOUR_LOCATION"
+location = "southcentralus"
 
 # The endpoint is global for the Translator service, DO NOT change it 
 endpoint = "https://api.cognitive.microsofttranslator.com/"
 
 # Text to be translated 
-text = "Hello"
+text = "EXIT"
 
 # Code to call Translator service to translate text
 headers = {
