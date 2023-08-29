@@ -21,7 +21,6 @@ body = {
     "url": img
 }
 
-# Mensaje de ejecusion
 print("Analyzing image...")
 response = requests.post(prediction_url, headers=headers, json=body)
 prediction = response.json()
